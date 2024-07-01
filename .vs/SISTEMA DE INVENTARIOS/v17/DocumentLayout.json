@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lucy\\source\\repos\\SISTEMA DE INVENTARIOS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA184AC5-7E25-49B6-B1AF-06FF4378451A}|SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS.csproj|c:\\users\\lucy\\source\\repos\\sistema de inventarios\\sistema de inventarios\\gestiondeproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA184AC5-7E25-49B6-B1AF-06FF4378451A}|SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS.csproj|solutionrelative:sistema de inventarios\\gestiondeproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA184AC5-7E25-49B6-B1AF-06FF4378451A}|SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS.csproj|C:\\Users\\Lucy\\source\\repos\\SISTEMA DE INVENTARIOS\\sistema de inventarios\\gestiondeproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EA184AC5-7E25-49B6-B1AF-06FF4378451A}|SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS.csproj|solutionrelative:sistema de inventarios\\gestiondeproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestionDeProductos.cs",
+              "DocumentMoniker": "C:\\Users\\Lucy\\source\\repos\\SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS\\GestionDeProductos.cs",
+              "RelativeDocumentMoniker": "SISTEMA DE INVENTARIOS\\GestionDeProductos.cs",
+              "ToolTip": "C:\\Users\\Lucy\\source\\repos\\SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS\\GestionDeProductos.cs",
+              "RelativeToolTip": "SISTEMA DE INVENTARIOS\\GestionDeProductos.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T00:06:17.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GestionDeProductos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lucy\\source\\repos\\SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS\\GestionDeProductos.cs",
+              "RelativeDocumentMoniker": "SISTEMA DE INVENTARIOS\\GestionDeProductos.cs",
+              "ToolTip": "C:\\Users\\Lucy\\source\\repos\\SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS\\GestionDeProductos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SISTEMA DE INVENTARIOS\\GestionDeProductos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T23:53:15.561Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
