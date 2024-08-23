@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lucy\\source\\repos\\SISTEMA DE INVENTARIOS\\",
+  "WorkspaceRootPath": "C:\\git_root\\StockManager\\StockManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA184AC5-7E25-49B6-B1AF-06FF4378451A}|SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS.csproj|c:\\users\\lucy\\source\\repos\\sistema de inventarios\\sistema de inventarios\\gestiondeproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EA184AC5-7E25-49B6-B1AF-06FF4378451A}|SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS.csproj|c:\\git_root\\stockmanager\\stockmanager\\sistema de inventarios\\gestiondeproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA184AC5-7E25-49B6-B1AF-06FF4378451A}|SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS.csproj|solutionrelative:sistema de inventarios\\gestiondeproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA184AC5-7E25-49B6-B1AF-06FF4378451A}|SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS.csproj|C:\\Users\\Lucy\\source\\repos\\SISTEMA DE INVENTARIOS\\sistema de inventarios\\gestiondeproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EA184AC5-7E25-49B6-B1AF-06FF4378451A}|SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS.csproj|C:\\git_root\\StockManager\\StockManager\\sistema de inventarios\\gestiondeproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EA184AC5-7E25-49B6-B1AF-06FF4378451A}|SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS.csproj|solutionrelative:sistema de inventarios\\gestiondeproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -24,22 +24,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GestionDeProductos.cs",
-              "DocumentMoniker": "C:\\Users\\Lucy\\source\\repos\\SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS\\GestionDeProductos.cs",
+              "DocumentMoniker": "C:\\git_root\\StockManager\\StockManager\\SISTEMA DE INVENTARIOS\\GestionDeProductos.cs",
               "RelativeDocumentMoniker": "SISTEMA DE INVENTARIOS\\GestionDeProductos.cs",
-              "ToolTip": "C:\\Users\\Lucy\\source\\repos\\SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS\\GestionDeProductos.cs",
+              "ToolTip": "C:\\git_root\\StockManager\\StockManager\\SISTEMA DE INVENTARIOS\\GestionDeProductos.cs",
               "RelativeToolTip": "SISTEMA DE INVENTARIOS\\GestionDeProductos.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEcAAAAAAAAA",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAAAKcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T00:06:17.077Z",
+              "WhenOpened": "2024-08-23T02:01:06.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GestionDeProductos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lucy\\source\\repos\\SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS\\GestionDeProductos.cs",
+              "DocumentMoniker": "C:\\git_root\\StockManager\\StockManager\\SISTEMA DE INVENTARIOS\\GestionDeProductos.cs",
               "RelativeDocumentMoniker": "SISTEMA DE INVENTARIOS\\GestionDeProductos.cs",
-              "ToolTip": "C:\\Users\\Lucy\\source\\repos\\SISTEMA DE INVENTARIOS\\SISTEMA DE INVENTARIOS\\GestionDeProductos.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\git_root\\StockManager\\StockManager\\SISTEMA DE INVENTARIOS\\GestionDeProductos.cs [Dise\u00F1o]",
               "RelativeToolTip": "SISTEMA DE INVENTARIOS\\GestionDeProductos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T23:53:15.561Z",

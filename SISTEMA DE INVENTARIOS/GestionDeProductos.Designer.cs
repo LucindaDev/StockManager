@@ -33,6 +33,7 @@
             this.btnAgregar = new System.Windows.Forms.Button();
             this.dgvListadoProductos = new System.Windows.Forms.DataGridView();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.txtNombreGrupo = new System.Windows.Forms.TextBox();
             this.lblNombreGrupo = new System.Windows.Forms.Label();
             this.lblCantidadProxTerminarProducto = new System.Windows.Forms.Label();
@@ -84,8 +85,7 @@
             this.dgvListadoGrupos.Size = new System.Drawing.Size(411, 446);
             this.dgvListadoGrupos.StandardTab = true;
             this.dgvListadoGrupos.TabIndex = 18;
-            this.dgvListadoGrupos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListadoGrupos_CellClick);
-            this.dgvListadoGrupos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListadoGrupos_CellContentClick);
+            this.dgvListadoGrupos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvListadoGrupos_CellClick);
             // 
             // btnAgregar
             // 
@@ -95,7 +95,7 @@
             this.btnAgregar.TabIndex = 13;
             this.btnAgregar.Text = "Agregar Grupo";
             this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            this.btnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
             // 
             // dgvListadoProductos
             // 
@@ -110,10 +110,11 @@
             this.dgvListadoProductos.StandardTab = true;
             this.dgvListadoProductos.TabIndex = 17;
             this.dgvListadoProductos.Visible = false;
-            this.dgvListadoProductos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListadoProductos_CellClick);
+            this.dgvListadoProductos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvListadoProductos_CellClick);
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.btnCancelar);
             this.groupBox3.Controls.Add(this.txtNombreGrupo);
             this.groupBox3.Controls.Add(this.lblNombreGrupo);
             this.groupBox3.Controls.Add(this.lblCantidadProxTerminarProducto);
@@ -128,12 +129,22 @@
             this.groupBox3.TabIndex = 16;
             this.groupBox3.TabStop = false;
             // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Enabled = false;
+            this.btnCancelar.Location = new System.Drawing.Point(327, 389);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(60, 47);
+            this.btnCancelar.TabIndex = 9;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
             // txtNombreGrupo
             // 
-            this.txtNombreGrupo.Enabled = false;
+            this.txtNombreGrupo.AcceptsTab = true;
             this.txtNombreGrupo.Location = new System.Drawing.Point(161, 16);
             this.txtNombreGrupo.Name = "txtNombreGrupo";
-            this.txtNombreGrupo.ReadOnly = true;
             this.txtNombreGrupo.Size = new System.Drawing.Size(238, 20);
             this.txtNombreGrupo.TabIndex = 8;
             // 
@@ -171,10 +182,8 @@
             // 
             // txtNombreProducto
             // 
-            this.txtNombreProducto.Enabled = false;
             this.txtNombreProducto.Location = new System.Drawing.Point(183, 16);
             this.txtNombreProducto.Name = "txtNombreProducto";
-            this.txtNombreProducto.ReadOnly = true;
             this.txtNombreProducto.Size = new System.Drawing.Size(216, 20);
             this.txtNombreProducto.TabIndex = 4;
             this.txtNombreProducto.Visible = false;
@@ -192,20 +201,16 @@
             // 
             // txtCantidadProxTerminar
             // 
-            this.txtCantidadProxTerminar.Enabled = false;
             this.txtCantidadProxTerminar.Location = new System.Drawing.Point(201, 67);
             this.txtCantidadProxTerminar.Name = "txtCantidadProxTerminar";
-            this.txtCantidadProxTerminar.ReadOnly = true;
             this.txtCantidadProxTerminar.Size = new System.Drawing.Size(198, 20);
             this.txtCantidadProxTerminar.TabIndex = 2;
             this.txtCantidadProxTerminar.Visible = false;
             // 
             // txtCantidad
             // 
-            this.txtCantidad.Enabled = false;
             this.txtCantidad.Location = new System.Drawing.Point(90, 41);
             this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.ReadOnly = true;
             this.txtCantidad.Size = new System.Drawing.Size(309, 20);
             this.txtCantidad.TabIndex = 1;
             this.txtCantidad.Visible = false;
@@ -228,7 +233,7 @@
             this.btnEliminar.TabIndex = 14;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
-            this.btnEliminar.Click += new System.EventHandler(this.Btneliminar_Click);
+            this.btnEliminar.Click += new System.EventHandler(this.BtnEliminar_Click);
             // 
             // btnEditar
             // 
@@ -317,5 +322,6 @@
         private System.Windows.Forms.TextBox txtNombreGrupo;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.DataGridView dgvListadoGrupos;
+        private System.Windows.Forms.Button btnCancelar;
     }
 }
